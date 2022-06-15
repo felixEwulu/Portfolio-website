@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome\css\all.css">
+
+    <!-- ========= SWIPER CSS ================== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <title>Felix dev</title>
+</head>
+<body>
+    <!-- ========================== HEADER ============================ -->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Felix</a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="fas fa-home"></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="fas fa-book"></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class="fas fa-briefcase"></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="fas fa-message"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Theme change button -->
+            <i class="fas fa-moon change-theme" id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!-- ========================== MAIN ============================ -->
+    <main class="main">
+        <!-- ================== HOME ================ -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Felix Ewulu</h1>
+                    <h3 class="home__education">Frontend Developer</h3>
+
+                    <div class="home__buttons">
+                        <!-- retrieve cv -->
+                        <a href="" class="button button--ghost"> Download CV</a>
+                        <a href="#about" class="button">About me</a>
+                    </div>
+                </div>
+                <div class="home__handle">
+                    <img src="./img/hero2.jpg" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com" class="home__social-link">
+                        <i class="fab fa-linkedin"></i>
+                        
+                    </a>
+                    <a href="https://www.github.com" class="home__social-link">
+                        <i class="fab fa-github"></i>
+
+                    </a>
+                    <a href="https://www.twitter.com" class="home__social-link">
+                        <i class="fab fa-twitter"></i>
+
+                    </a>
+                </div>
+                
+                <a href="#about" class="home__scroll">
+                    <i class="fas fa-mouse home__scroll-icon"></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+
+        </section>
+
+        <!-- ================= ABOUT ===================== -->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="./img/about.jpg" alt="" class="about__img">
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class="fas fa-award about__icon"></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">2 Years Working</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="fas fa-briefcase about__icon"></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">10 + Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="fas fa-support about__icon"></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Frontend developer, I create custom web pages with elegant User interface and wonderful User experience, 
+                        Fully functional websites that makes it easy to run your business online.  
+                    </p>
+                        
+                    <a href="#contact" class="button">Contact Me</a>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ==================== SKILLS ================== -->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My abilities</span>
+            <h2 class="section__title">My Experience</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend developer</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group"> 
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h3 class="skill__name">HTML5</h3>
+                                    <span class="skill__level">Advanced</span>
+                                </div>                                
+
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                 <div>
+                                    <h3 class="skill__name">CSS3</h3>
+                                    <span class="skill__level">Advanced</span>
+                                </div>                                
+
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h3 class="skill__name">Javascipt</h3>
+                                    <span class="skill__level">Basic</span>
+                                </div>                                
+
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h3 class="skill__name">Tailwind</h3>
+                                    <span class="skill__level">Intermediate</span>
+                                </div>                                
+
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h3 class="skill__name">Git</h3>
+                                    <span class="skill__level">Basic</span>
+                                </div>                                
+
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h3 class="skill__name">Boostrap</h3>
+                                    <span class="skill__level">Intermediate</span>
+                                </div>                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__content">
+                    <h3 class="skills__title">Web Designer</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h3 class="skill__name">Figma</h3>
+                                    <span class="skill__level">Intermediate</span>
+                                </div>                                
+
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-check-circle"></i>
+                                 <div>
+                                    <h3 class="skill__name">Adobe XD</h3>
+                                    <span class="skill__level">Intermediate</span>
+                                </div>                                
+
+                            </div>
+                           
+                        </div>
+
+                       
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- =================== SERVICES ================ -->
+        <section class="services section">
+            <span class="section__subtitle">My Services</span>
+            <h2 class="section__title">What I Offer</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <h3 class="services__title">Web Development</h3>
+                    <span class="services__button">
+                        See more <i class="fas fa-arrow-right services__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fas fa-x services__modal-close"></i>
+
+                            <h3 class="services__modal-title">Web Development</h3>
+                            <p class="services__modal-description">
+                               Develope websites using the lastest and most up to-date web Development technologies to
+                               ensure speedy performance.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                       Develop fast and robust websites 
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                    Rapid prototyping
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Ready-made templates
+
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        All in one deployment
+
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="services__card">
+                    <h3 class="services__title">Maintenance and Update</h3>
+                    <span class="services__button">
+                        See more <i class="fas fa-arrow-right services__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fas fa-x services__modal-close"></i>
+                    
+                            <h3 class="services__modal-title">Update & Maintenance</h3>
+                            <p class="services__modal-description">
+                              Periodic updates and timely optimization of websites and web applications  
+                            </p>
+                    
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Optimized web pages
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Timely updates
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Bug fixes
+                    
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        General maintenance
+                    
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="services__card">
+                    <h3 class="services__title">Website Migration</h3>
+                    <span class="services__button">
+                        See more <i class="fas fa-arrow-right services__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fas fa-x services__modal-close"></i>
+                    
+                            <h3 class="services__modal-title">Website Migration</h3>
+                            <p class="services__modal-description">
+                                Migration of custom codes or existing websites to a content management system
+                            </p>
+                    
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Migration to WordPress
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Convert existing websites to WordPress templates
+                                    </p>
+                                </li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="services__card">
+                    <h3 class="services__title">E-commerce websites</h3>
+                    <span class="services__button">
+                        See more <i class="fas fa-arrow-right services__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fas fa-x services__modal-close"></i>
+                    
+                            <h3 class="services__modal-title">e-commerce</h3>
+                            <p class="services__modal-description">
+                                Develope user interface for a fully functional ecommerce website.
+                            </p>
+                    
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Well-optimized
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Great user-experience
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Payment options
+                    
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="fas fa-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        All in one deployment
+                    
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+             
+
+        </section>
+
+        <!-- ==================== WORK =============== -->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>All</span>
+                <span class="work__item" data-filter='.ecommerce'>ecommerce</span>
+                <span class="work__item" data-filter='.travel'>Travel</span>
+                <span class="work__item" data-filter='.landing'>Landing Page</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix ecommerce">
+                    <img src="./img/work2.jpg" alt="" class="work__img">
+                    <h3 class="work__title">E-commerce</h3>
+                    <a href="" class="work__button">
+                        Live url <i class="fas fa-arrow-right work__icon"></i>
+                    </a>
+                </div>
+                <div class="work__card mix travel">
+                    <img src="./img/work4.jpg" alt="" class="work__img">
+                    <h3 class="work__title">Travel website</h3>
+                    <a href="" class="work__button">
+                        Live url <i class="fas fa-arrow-right work__icon"></i>
+                    </a>
+                </div>
+                <div class="work__card mix landing">
+                    <img src="./img/portfolio3.jpg" alt="" class="work__img">
+                    <h3 class="work__title"> Product Landing Page</h3>
+                    <a href="" class="work__button">
+                        Live url <i class="fas fa-arrow-right work__icon"></i>
+                    </a>
+                </div>
+                <div class="work__card mix landing">
+                    <img src="./img/work3.jpg" alt="" class="work__img">
+                    <h3 class="work__title">Market Place</h3>
+                    <a href="" class="work__button">
+                        Live url <i class="fas fa-arrow-right work__icon"></i>
+                    </a>
+                </div>
+                <div class="work__card mix landing">
+                    <img src="https://www.pexels.com/photo/spring-flowers-and-the-moon-12189610/" alt="" class="work__img">
+                    <h3 class="work__title"></h3>
+                    <a href="" class="work__button">
+                        Live url <i class="fas fa-arrow-right work__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+
+        <!-- ==================== TESTIMONIALS ===================== -->
+        <section class="testimonial section">
+            <span class="section__subtitle">My clients say</span>
+            <h2 class="section__title">Testimonials</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper ">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="./img/testimonial1.jpg" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Suzzy Lema</h3>
+                        <p class="testimonial__description">
+                            Felix always give a timely feedback on progression of my projects, highly recommended.
+                        </p>
+                    </div>
+                    <div class="testimonial__card swiper-slide">
+                        <img src="./img/testimonial2.jpg" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Joe Phils</h3>
+                        <p class="testimonial__description">
+                            I needed to complete my website in the fastest time possible, 
+                            I hired Felix and it was delivered on the agreed date.
+                        </p>
+                    </div>
+                    <div class="testimonial__card swiper-slide">
+                        <img src="./img/testimonial3.jpg" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Samoa August</h3>
+                        <p class="testimonial__description">
+                            If you need your websites built professionally, I would highly recommend him!.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </section>
+
+        <!-- ==================== CONTACT ===================== -->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in touch</span>
+            <h2 class="section__title">Contact Me</h2>
+            
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="fas fa-message contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">user@gmail.com</span>
+
+                            <a href="mailto:felixgraphics01@gmail.com" target="_blank" class="contact__button">
+                                Write me <i class="fas fa-arrow-right"></i>
+
+                            </a>
+
+                            
+                        </div>
+                        <div class="contact__card">
+                            <i class="fab fa-whatsapp contact__card-icon"></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">999-888-777</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=2349034094862&text=Hello, more information!" target="_blank" class="contact__button">
+                                Write me <i class="fas fa-arrow-right"></i>
+
+                            </a>
+
+                            
+                        </div>
+                        <div class="contact__card">
+                            <i class="fab fa-facebook contact__card-icon"></i>
+                            <h3 class="contact__card-title">Messenger</h3>
+                            <span class="contact__card-data">user.fb123</span>
+
+                            <a href="" target="_blank" class="contact__button">
+                                Write me <i class="fas fa-arrow-right"></i>
+
+                            </a>
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Write me your project</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input type="text" placeholder="insert your name" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input type="email" placeholder="insert your email" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Projects</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact__form-input"></textarea>
+                           
+                        </div>
+
+                        <button class="button">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+        </main>
+
+        <!-- =================== FOOTER =================== -->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Felix</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="work" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="testimonial" class="footer__link">Testimonials</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="" target="_blank" class="footer__social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" target="_blank" class="footer__social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" target="_blank" class="footer__social-link">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">&#169; Optima Web Solutions. All rights reserved.</span>
+            </div>
+
+        </footer>
+
+
+        <!-- ================== SWIPER JS ======================= -->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   
+
+
+    <!-- ================ MIXITUP FILTER ========================= -->
+    <script src="./JS/mixitup.min.js"></script>
+
+
+
+    <!-- =================== JAVASCRIPT ======================== -->
+    <script src="./JS/app.js"></script>
+    
+</body>
+</html>
