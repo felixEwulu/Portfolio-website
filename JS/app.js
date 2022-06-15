@@ -75,31 +75,6 @@ function scrollActive() {
   });
 }
 
-window.addEventListener("scroll", scrollActive);
-/* ================== SWIPER TESTIMONIAL ================= */
- let swiperTestimonial = new Swiper(".testimonial__container", {
-   spaceBetween: 24,
-   loop: true,
-   gradCursor: true,
-   pagination: {
-     el: ".swiper-pagination",
-     clickable: true,
-   },
-   breakpoints: {
-     576: {
-       slidesPerView: 2,
-      
-     },
-     768: {
-       slidesPerView: 2,
-       spaceBetween: 48,
-     },
-    
-   },
- });
-
-
-
 
 /* ===================== DARK LIGHT THEME ======================== */
 const themeButton = document.getElementById("theme-button");
@@ -139,6 +114,35 @@ themeButton.addEventListener("click", function () {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+
+
+
+window.addEventListener("scroll", scrollActive);
+/* ================== SWIPER TESTIMONIAL ================= */
+ let swiperTestimonial = new Swiper(".testimonial__container", {
+   spaceBetween: 24,
+   loop: true,
+   gradCursor: true,
+   pagination: {
+     el: ".swiper-pagination",
+     clickable: true,
+   },
+   breakpoints: {
+     576: {
+       slidesPerView: 2,
+      
+     },
+     768: {
+       slidesPerView: 2,
+       spaceBetween: 48,
+     },
+    
+   },
+ });
+
+
+
 
 
 
