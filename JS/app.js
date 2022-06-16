@@ -120,26 +120,26 @@ themeButton.addEventListener("click", function () {
 
 window.addEventListener("scroll", scrollActive);
 /* ================== SWIPER TESTIMONIAL ================= */
- let swiperTestimonial = new Swiper(".testimonial__container", {
-   spaceBetween: 24,
-   loop: true,
-   gradCursor: true,
-   pagination: {
-     el: ".swiper-pagination",
-     clickable: true,
-   },
-   breakpoints: {
-     576: {
-       slidesPerView: 2,
+//  let swiperTestimonial = new Swiper(".testimonial__container", {
+//    spaceBetween: 24,
+//    loop: true,
+//    gradCursor: true,
+//    pagination: {
+//      el: ".swiper-pagination",
+//      clickable: true,
+//    },
+//    breakpoints: {
+//      576: {
+//        slidesPerView: 2,
       
-     },
-     768: {
-       slidesPerView: 2,
-       spaceBetween: 48,
-     },
+//      },
+//      768: {
+//        slidesPerView: 2,
+//        spaceBetween: 48,
+//      },
     
-   },
- });
+//    },
+//  });
 
 
 
