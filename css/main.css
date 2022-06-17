@@ -317,7 +317,7 @@
 
     .home__handle {
         justify-self: center;
-        width: 280px;
+        width: 220px;
         height: 260px;
         background: linear-gradient(180deg,
                     hsla(207, 90%, 72%, 1),
@@ -630,7 +630,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     column-gap: .75rem; 
+     column-gap: .25rem; 
      margin-bottom: 2rem;  
     }
 
