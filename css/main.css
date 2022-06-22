@@ -606,11 +606,15 @@
         font-size: var(--small-fs);
     }
 
+         .services__modal-close::after{
+            content: '';
+         }
+
     .services__modal-close{
         position: absolute;
         right: 1.5rem;
         top: 1.5rem;
-        font-size: .75rem;
+        font-size: 1.2rem;
         color: var(--first-color);
         cursor: pointer;
     }
