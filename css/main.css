@@ -378,7 +378,7 @@
         bottom: 4rem;
         right: -1.5rem;
         display: grid;
-        row-gap: 2.25rem;
+        row-gap: 1.25rem;
         justify-items: center;
     }
 
@@ -387,8 +387,8 @@
     }
 
     .home__scroll-name{
-        font-size: var(--smaller-fs);
-        transform: rotate(-90deg);
+        font-size: var(--h3-fs);
+        /* transform: rotate(-90deg); */
     }
 
     /* ============== BUTTONS ==================== */
