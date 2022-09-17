@@ -317,13 +317,13 @@
 
     .home__handle {
         justify-self: center;
-        width: 220px;
+        /* width: 220px; */
         height: 260px;
-        background: linear-gradient(180deg,
+        /* background: linear-gradient(180deg,
                     hsla(207, 90%, 72%, 1),
                     hsla(250, 90%, 72%, .2)
-                    );
-        border-radius: 10rem 10rem 1rem 1rem;
+                    ); */
+        /* border-radius: 10rem 10rem 1rem 1rem; */
         display: flex;
         align-items: flex-end;
         justify-content: center;
@@ -665,11 +665,17 @@
 
     .work__button{
         width: max-content;
-        color: var(--first-color);
+        color: var(--body-color);
         font-size: var(--small-fs);
         display: flex;
         align-items: center;
         column-gap: .25rem;
+    }
+
+    .codes-btn{
+        margin-top: 1rem;
+        display: flex;
+        column-gap: .875rem;
     }
 
     .work__button:hover .work__icon{
